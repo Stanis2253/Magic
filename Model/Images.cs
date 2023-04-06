@@ -19,5 +19,7 @@ namespace MagicModels
         public virtual Product Product { get; set; }
 
         public string IndexImg { get; set; }
+
+
     }
 }

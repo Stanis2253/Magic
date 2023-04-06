@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace MagicModels
 {
@@ -26,6 +23,10 @@ namespace MagicModels
 
         [ForeignKey("ManufacturerId")]
         public virtual Manufacturer Manufacturer { get; set; }
-        public List<Category> Category { get; set; } = new();
+
+        public int CategoryId { get; set; }
+
+        [ForeignKey("CategoryId")]
+        public virtual Category Category { get; set; }
     }
 }

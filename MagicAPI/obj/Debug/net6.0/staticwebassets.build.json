@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "i3OAv1+YGF8TDuW8ychuRgbpKD6meSyQUgLzu2S2FVM=",
+  "Hash": "suMW95EExui2RQNuXUP/HN05obxw15WGmOfl8lo15J4=",
   "Source": "MagicAPI",
   "BasePath": "_content/MagicAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MagicAPI\\wwwroot",
+      "Source": "MagicAPI",
+      "ContentRoot": "C:\\Users\\stani\\Study\\Develop\\ASP.net\\Magic\\MagicAPI\\wwwroot\\",
+      "BasePath": "_content/MagicAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

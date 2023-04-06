@@ -3,55 +3,40 @@ using MagicModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 
 namespace MagicAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
-    
-
     public class CategoryController : ControllerBase
     {
-        private readonly ApplicationDbContext _dbContext;
-        public CategoryController(ApplicationDbContext dbContext)
+        private readonly ApplicationDbContext _context;
+        public CategoryController(ApplicationDbContext context)
         {
-            _dbContext = dbContext;
+            _context = context;
         }
         // GET: api/Category/
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
-            if (_dbContext.Category == null)
+            var category = _context.Category;
+
+            if (category != null)
             {
-                return NotFound();
+                return Ok(await category.ToListAsync());
             }
-            return await _dbContext.Category.ToListAsync();
+            return NotFound();
+
         }
-        //GET: api/Category/5
-        [HttpGet("id")]
-        public async Task<ActionResult<Category>> GetCategory(int Id)
-        {
-            if (_dbContext.Category == null)
-            {
-                return NotFound();
-            }
 
-            var category = await _dbContext.Category.FindAsync(Id);
-
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return category;
-        }
         //GET: api/Category/5
         [HttpPost]
         public async Task<ActionResult<Category>> PostCategory(Category category)
         {
-            _dbContext.Category.Add(category);
-            await _dbContext.SaveChangesAsync();
+            _context.Add(category);
+
+            await _context.SaveChangesAsync();
 
             return Ok(category);
         }
@@ -62,47 +47,27 @@ namespace MagicAPI.Controllers
             {
                 return BadRequest();
             }
-            _dbContext.Entry(category).State = EntityState.Modified;
 
-            try
-            {
-                await _dbContext.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CategoryExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _context.Category.Update(category);
+
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
         [HttpDelete("id")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            if (_dbContext.Category == null)
-            {
-                return NotFound();
-            }
-            var category = await _dbContext.Category.FindAsync(id);
+            var category = await _context.Category.FindAsync(id);
             if (category == null)
             {
                 return NotFound();
             }
-            _dbContext.Category.Remove(category);
-            await _dbContext.SaveChangesAsync();
+            _context.Category.Remove(category);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool CategoryExists(long id)
-        {
-            return (_dbContext.Category?.Any(c => c.Id == id)).GetValueOrDefault();
-        }
 
     }
 }

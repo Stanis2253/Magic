@@ -14,7 +14,6 @@ C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.Ge
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.AssemblyInfoInputs.cache
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.AssemblyInfo.cs
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.csproj.CoreCompileInputs.cache
-C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\staticwebassets\msbuild.MagicAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.MagicAPI.props
@@ -61,9 +60,7 @@ C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\wi
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MagicDataAccess.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MagicModel.dll
-C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MagicDataAccess.pdb
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MagicModel.pdb
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MessagePack.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -273,3 +270,7 @@ C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\un
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\obj\Debug\net6.0\MagicAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\MagicAPI.staticwebassets.runtime.json
+C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\MagicAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
