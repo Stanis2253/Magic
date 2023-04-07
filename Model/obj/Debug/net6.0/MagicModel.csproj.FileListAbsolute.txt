@@ -1,0 +1,12 @@
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\bin\Debug\net6.0\MagicModel.deps.json
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\bin\Debug\net6.0\MagicModel.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\bin\Debug\net6.0\MagicModel.pdb
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.csproj.AssemblyReference.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.AssemblyInfoInputs.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.AssemblyInfo.cs
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.csproj.CoreCompileInputs.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\refint\MagicModel.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\MagicModel.pdb
+C:\Users\stani\Study\Develop\ASP.net\Magic\Model\obj\Debug\net6.0\ref\MagicModel.dll

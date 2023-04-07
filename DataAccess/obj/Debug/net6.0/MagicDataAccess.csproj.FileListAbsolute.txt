@@ -1,0 +1,17 @@
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.csproj.AssemblyReference.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.AssemblyInfoInputs.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.AssemblyInfo.cs
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicDataAccess.deps.json
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicDataAccess.runtimeconfig.json
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicDataAccess.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicDataAccess.pdb
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicModel.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\bin\Debug\net6.0\MagicModel.pdb
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.csproj.CopyComplete
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\refint\MagicDataAccess.dll
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.pdb
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\MagicDataAccess.genruntimeconfig.cache
+C:\Users\stani\Study\Develop\ASP.net\Magic\DataAccess\obj\Debug\net6.0\ref\MagicDataAccess.dll
